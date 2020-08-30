@@ -210,19 +210,19 @@
         <div class="social-media">
             
             <div class="social-group">
-                <p>Name:</p>
+                <p>E-mail:</p>
                 <img src="./images/mail.png" alt="">
             </div>
             <div class="social-group">
-                <p>Email:</p>
+                <p>LinkedIn:</p>
                 <img src="./images/linkedin.png" alt="">
             </div>
             <div class="social-group">
-                <p>Subject:</p>
+                <p>Github:</p>
                 <img src="./images/git.png" alt="">
             </div>
             <div class="social-group">
-                <p>Message:</p>
+                <p>Download resume:</p>
                 <img src="./images/portfolio.png" alt="">
             </div>
            
@@ -236,19 +236,19 @@
         @endif
         <form>
             <div class="form-group">
-              <label for="formGroupExampleInput">Example label</label>
+              <label for="formGroupExampleInput">Name:</label>
               <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
             </div>
             <div class="form-group">
-              <label for="formGroupExampleInput2">Another label</label>
+              <label for="formGroupExampleInput2">Email:</label>
               <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
             </div>
             <div class="form-group">
-              <label for="formGroupExampleInput2">Another label</label>
+              <label for="formGroupExampleInput2">Subject:</label>
               <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
             </div>
             <div class="form-group">
-              <label for="exampleFormControlTextarea1">Example textarea</label>
+              <label for="exampleFormControlTextarea1">Enter Message:</label>
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
             <button type="submit" class="btn btn-primary">SUBMIT</button>
