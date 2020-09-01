@@ -1,5 +1,84 @@
 // Navigation - Navbar
+h1.bold{
+    font-weight:900;
+}
+.nav-wrapper{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding:30px 0px;
 
-// Navigation - Footer
+    
+}
+.right-nav-links{
+    display:flex;
+    align-items:center;
+}
 
 // Nav links
+.nav-link{
+    font-size:18px;
+    font-weight:medium;
+    line-height:31px;
+    text-decoration: none;
+    color:white;
+} 
+
+//footer
+  
+
+
+#footer{
+    background-color: black;
+    padding-top:80px;
+    padding-bottom:80px;
+    
+
+    .container{
+        width:900px;
+    }
+
+    .social-media-wrapper{
+        display:flex;
+        flex-direction: row;
+        flex-wrap:wrap; 
+    }
+
+    .social-group{
+        display:flex;
+        flex-direction: row;
+        align-items:start;
+    }
+    .label{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 38px;
+    }
+
+    .form-control{
+        
+        background-color: $form-input-color;
+        border-radius:0px;
+
+        &.small-width{
+            width:360px;
+        }
+        
+        &.width{
+            width:733px;
+        }
+    
+        &.width.height{
+            height:250px;
+        }
+
+    }
+
+    .form-group.col-md-6{
+        margin-right:0px;
+    }
+
+
+
+}

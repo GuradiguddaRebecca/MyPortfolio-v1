@@ -13,7 +13,7 @@
         <div class="container">
           <nav class="navbar sticky-top navbar-light navbar-expand-lg">
             <span>
-              <a class="navbar-brand" href="#">Rebecca G</a>
+              <a class="navbar-brand h1 strong" href="#">Rebecca G</a>
               <p class="designation">Software Developer&Designer</p>    
             </span>
 
@@ -74,7 +74,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Todolist</h5>
                   <p class="text-uppercase"> HTML/CSS/JS</p>
-                  <p class="card-text">TThis one is a super simple to-do list where you can cross out what you have done by clicking on the task or delete it by hovering and hitting the garbage can icon</p>
+                  <p class="card-text">This one is a super simple to-do list where you can cross out what you have done by clicking on the task or delete it by hovering and hitting the garbage can icon</p>
                 </div>
               </div>
             </div>
@@ -83,9 +83,9 @@
               <div class="card">
                 <img src="./images/dotexpress.png" class="card-img-top" alt="Project Image">
                 <div class="card-body">
-                  <h5 class="card-title">Bender, destroy the universe!</h5>
-                  <p class="text-uppercase">LARAVEL HTML JAVASCRIPT</p>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5 class="card-title">Dot Express</h5>
+                  <p class="text-uppercase">Webflow</p>
+                  <p class="card-text">This is a website, which is built using webflow technology with CMS</p>
                 </div>
               </div>
             </div>
@@ -93,9 +93,9 @@
               <div class="card">
                 <img src="./images/organo.png" class="card-img-top" alt="Project Image">
                 <div class="card-body">
-                  <h5 class="card-title">Bender, destroy the universe!</h5>
-                  <p class="text-uppercase">LARAVEL HTML JAVASCRIPT</p>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5 class="card-title">Organo</h5>
+                  <p class="text-uppercase">Webflow</p>
+                  <p class="card-text">This is a website, which is built using webflow technology with CMS</p>
                 </div>
               </div>
             </div>
@@ -255,8 +255,8 @@
             
         </form>
         </div>
-      </div>  
-      
+      </div> 
+        
     </div>  
   </footer>
 

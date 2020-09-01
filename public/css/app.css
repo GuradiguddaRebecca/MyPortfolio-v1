@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@400;
 
-500;700&display=swap);@charset "UTF-8";
+500;700;900&display=swap);@charset "UTF-8";
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -11191,10 +11191,16 @@ h3 .strong {
   font-weight: bold;
 }
 
+h1 .bold,
+h2 .bold,
+h3 .bold {
+  font-weight: 900;
+}
+
 h1 .uppercase,
 h2 .uppercase,
 h3 .uppercase {
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 h1 {
@@ -11221,9 +11227,226 @@ p.strong {
   font-weight: bold;
 }
 
+.section-title h2 {
+  font-weight: 700px;
+}
+
+h1.bold {
+  font-weight: 900;
+}
+
+.nav-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 0px;
+}
+
+.right-nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  font-size: 18px;
+  font-weight: medium;
+  line-height: 31px;
+  text-decoration: none;
+  color: white;
+}
+
+#footer {
+  background-color: black;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#footer .container {
+  width: 900px;
+}
+
+#footer .social-media-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#footer .social-group {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+
+#footer .label {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 38px;
+}
+
+#footer .form-control {
+  background-color: #C4C4C4;
+  border-radius: 0px;
+}
+
+#footer .form-control.small-width {
+  width: 360px;
+}
+
+#footer .form-control.width {
+  width: 733px;
+}
+
+#footer .form-control.width.height {
+  height: 250px;
+}
+
+#footer .form-group.col-md-6 {
+  margin-right: 0px;
+}
+
+#work-section {
+  margin-bottom: 20px;
+}
+
+#work-section h2.uppercase {
+  text-transform: uppercase;
+}
+
+#work-section .row.row-cols-1.row-cols-md-3 {
+  padding: 15px 0px 0px;
+  margin-bottom: 0;
+}
+
+#work-section .card {
+  background-color: #1A1B21;
+  color: white;
+  border-radius: none;
+  margin-bottom: 0;
+}
+
+#work-section .card-body {
+  padding: 15px 0;
+  margin-bottom: 10px;
+}
+
+#work-section .card-title {
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+#work-section .card-text {
+  font-size: 14px;
+  line-height: 25px;
+}
+
+#work-section .text-uppercase {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+#work-section .text-uppercase.section-title {
+  font-size: 24px;
+}
+
+.btn {
+  font-style: normal;
+  color: white;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 31px;
+  padding: 12px 15px;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  background-image: linear-gradient(180deg, #D61151 0%, #6D24C0 100%);
+  opacity: 0.85;
+}
+
+.btn.btn-small {
+  background: linear-gradient(180deg, #D61151 0%, #6D24C0 100%);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  opacity: 0.85;
+  line-height: 31px;
+  font-weight: 900;
+  padding: 12px 15px;
+  font-size: 14px;
+}
+
+#slider {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#About-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: white;
+  color: black;
+}
+
+#About-section .about-para h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 31px;
+  letter-spacing: 0.01em;
+  margin-bottom: 25px;
+}
+
+#About-section .capabilities {
+  margin-bottom: 25px;
+}
+
+#About-section .left-column {
+  order: 1;
+  width: 50%;
+}
+
+#About-section .right-column {
+  order: 2;
+  width: 50%;
+}
+
+#About-section .columns {
+  display: flex;
+  flex-direction: row;
+}
+
+#About-section .uppercase {
+  text-transform: uppercase;
+}
+
+#About-section .strong {
+  font-weight: bold;
+}
+
 .carousel-inner > .item > img {
   min-height: 300px;
   max-height: 300px;
   width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1A1B21;
+  color: white;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 80px;
+}
+
+hr {
+  width: 31px;
+  height: 4px;
+  background-image: linear-gradient(180deg, #D61151 0%, #6D24C0 100%);
+  margin-top: 3px;
 }
 
