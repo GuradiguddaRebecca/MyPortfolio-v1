@@ -37264,7 +37264,30 @@ module.exports = function(module) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
+__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js"); //navigation
+
+
+var navSlide = function navSlide() {
+  var burger = document.querySelector('.burger');
+  var nav = document.querySelector('.nav-links');
+  var navLinks = document.querySelectorAll('.nav-links li');
+  burger.addEventListener('click', function () {
+    // Toggle Nav
+    nav.classList.toggle('nav-active'); // animate navlinks
+
+    navLinks.forEach(function (link, index) {
+      if (link.style.animation) {
+        link.style.animation = '';
+      } else {
+        link.style.animation = "navLinkFade 0.5s ease forwards ".concat(index / 7 + 0.5, "s");
+      }
+    }); // burger animation
+
+    burger.classList.toggle('toggle');
+  });
+};
+
+navSlide();
 
 /***/ }),
 

@@ -1,37 +1,155 @@
 // Navigation - Navbar
-h1.bold{
+
+nav {
+    margin-top:40px;
+    margin-bottom:40px;
+    padding-left: 43px;
+    padding-right:15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-height: 8vh;
+    background-color: #1A1B21;
+   
+  }
+  
+  h1.bold{
     font-weight:900;
 }
-.nav-wrapper{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-    padding:30px 0px;
-
-    
-}
-.right-nav-links{
-    display:flex;
-    align-items:center;
-}
-
-// Nav links
-.nav-link{
-    font-size:18px;
-    font-weight:medium;
-    line-height:31px;
+  
+  nav .nav-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 20%;
+  }
+  
+  nav .nav-links li {
+    list-style: none;
+  }
+  
+  nav .nav-links li a {
+    color: white;
     text-decoration: none;
-    color:white;
-} 
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+  
+  nav .burger {
+    display: none;
+  }
+  
+  nav .burger div {
+    width: 25px;
+    height: 3px;
+    background-color: #e2e2e2;
+    margin: 5px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .nav-links {
+      width: 60% !important;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    body {
+      overflow-x: hidden;
+    }
+    body .nav-links {
+      position: absolute;
+      right: 0px;
+      height: 25vh;
+      top: 8vh;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: flex-end;
+      background-color: #1A1B21;
+      width: 100% !important;
+      -webkit-transform: translateX(100%);
+              transform: translateX(100%);
+      -webkit-transition: -webkit-transform 0.5s ease-in;
+      transition: -webkit-transform 0.5s ease-in;
+      transition: transform 0.5s ease-in;
+      transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
+    }
+    body .nav-links li {
+      opacity: 0;
+    }
+    body .burger {
+      display: block;
+      cursor: pointer;
+    }
+  }
+  
+  .nav-active {
+    -webkit-transform: translateX(0%) !important;
+            transform: translateX(0%) !important;
+  }
+  
+  @-webkit-keyframes navLinkFade {
+    from {
+      opacity: 0;
+      -webkit-transform: translateX(50px);
+              transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      -webkit-transform: translateX(0px);
+              transform: translateX(0px);
+    }
+  }
+  
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      -webkit-transform: translateX(50px);
+              transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      -webkit-transform: translateX(0px);
+              transform: translateX(0px);
+    }
+  }
+  
+  .toggle .line1 {
+    -webkit-transform: rotate(-45deg) translate(-5px, 6px);
+            transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  
+  .toggle .line2 {
+    opacity: 0;
+  }
+  
+  .toggle .line3 {
+    -webkit-transform: rotate(45deg) translate(-5px, -6px);
+            transform: rotate(45deg) translate(-5px, -6px);
+  }
+
 
 //footer
-  
-
-
 #footer{
     background-color: black;
     padding-top:80px;
-    padding-bottom:80px;
+    padding-bottom:60px;
     
 
     .container{
@@ -42,12 +160,13 @@ h1.bold{
         display:flex;
         flex-direction: row;
         flex-wrap:wrap; 
+      
     }
 
     .social-group{
         display:flex;
         flex-direction: row;
-        align-items:start;
+        align-items: flex-start;
     }
     .label{
         font-style: normal;

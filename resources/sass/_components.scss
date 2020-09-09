@@ -86,6 +86,43 @@
     padding-bottom:80px;
     background-color: white;
     color:black;
+    .columns{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        align-content: space-between;
+        justify-content: space-between;
+    }
+    @media(min-width:576px) {
+        .columns {
+          flex-flow: row wrap;
+        }
+        .columns>.left-column {
+          order: 1;
+          flex: 0.5;
+        }
+        .columns>.right-column {
+          order: 2;
+          flex: 0.5;
+        }
+        
+      }
+      
+      @media(min-width:768px) {
+        .columns {
+          flex-flow: row nowrap;
+        }
+        .columns>div {
+          width: 50% !important;
+        }
+        .columns>.left-column{
+          order: 1;
+        }
+        
+        .columns>.right-column {
+          order: 2;
+        }
+      }
 
     .about-para h3{
         font-style: normal;

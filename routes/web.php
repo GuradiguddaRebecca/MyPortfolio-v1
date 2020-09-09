@@ -14,12 +14,19 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
-});
-Route::get('/new', function () {
     return view('new');
 });
+
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+// //projects
+// Route::get('/colortoggle', function(){
+//     return view('projects.colortoggle');
+// });
+
+// Route::get('/todolist',function(){
+//     return view('projects.todolist');
+// });

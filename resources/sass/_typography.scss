@@ -25,25 +25,34 @@ h1, h2, h3 {
 
 h1 {
     font-size: 32px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
 }
 
 h2 {
     font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.01em;
 }
 
 h3 {
     font-size: 18px;
-}
+    line-height: 31px;
+    letter-spacing: 0.01em;
+    }
+
 
 
 // Body Text
 
 p {
     font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0.005em;
 
     &.large {
         font-size: 18px;
-    }
+        
     
     &.strong {
         font-weight: bold;
@@ -52,4 +61,5 @@ p {
 
 .section-title h2{
     font-weight:700px;
+}
 }

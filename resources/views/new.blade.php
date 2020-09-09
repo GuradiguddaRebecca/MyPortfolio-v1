@@ -10,7 +10,7 @@
 </head>
 <body>
     {{-- Navigation Bar --}}
-    <header>
+    {{-- <header>
         <div class="container">
         <div class="nav-wrapper">
             <div class="left-nav-links">
@@ -24,7 +24,28 @@
             </div>
         </div>
         </div>
-    </header>
+      </header> --}}
+
+    <nav>
+     
+        <div class="logo">
+          <h1 class="bold">Rebecca G</h1>
+          <p>Software Developer $ Designer</p>
+        </div>
+        <ul class="nav-links">
+          <li><a href="">Work</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+     
+        
+    </nav> 
 
     {{-- Work section --}}
     <section id="work-section">
@@ -103,8 +124,7 @@
         </div>
     </section>
 
-
-
+    
 
     {{-- About section --}}
     <section id="About-section">
@@ -122,7 +142,7 @@
 
                 <div class="capabilities">
                     <div class="strong uppercase">
-                        <h3>proficient in:</h3>
+                        <h3 style="font-weight:bold;">proficient in:</h3>
                         <hr>
                     </div>
 
@@ -151,7 +171,9 @@
             
           </div>
     </section>
-    
+
+
+    {{-- slider --}}
     <section id="slider">
         <div class="container">
             <!--Carousel Wrapper-->
@@ -218,29 +240,12 @@
         
     </section>
 
-     
+    {{-- footer-section  --}}
     <section id="footer">
         <div class="container">
           <div class="wrapper">
 
-            <div class="social-media-wrapper">
-              <div class="social-group mr-5">
-                <p class="label">E-mail:</p>
-                <img src="./images/mail.png" alt="">
-              </div>
-              <div class="social-group mr-5">
-                <p class="label">LinkedIn:</p>
-                <img src="./images/linkedin.png" alt="">
-              </div>
-              <div class="social-group mr-5">
-                <p class="label">Github:</p>
-                <img src="./images/git.png" alt="">
-              </div>
-              <div class="social-group mr-5">
-                <p class="label">Download resume:</p>
-                <img src="./images/portfolio.png" alt="">
-              </div>
-            </div>
+            
 
             <div class="contact-line">
               <h2>Leave me a message</h2>
@@ -269,6 +274,29 @@
                   
                   <button type="submit" class="btn btn-small">SUBMIT</button>
             </form>
+
+            <div class="social-media-wrapper mt-5">
+              <div class="social-group mr-4">
+                <img class="mr-2" src="./images/mail.png" alt="">
+                <p class="label">E-mail</p>
+                
+              </div>
+              <div class="social-group mr-4">
+                <img class="mr-2" src="./images/linkedin.png" alt="">
+                <p class="label">LinkedIn</p>
+               
+              </div>
+              <div class="social-group mr-4">
+                <img class="mr-2" src="./images/git.png" alt="">
+                <p class="label">Github</p>
+              
+              </div>
+              <div class="social-group mr-4">
+                <img class="mr-2" src="./images/portfolio.png" alt="">
+                <p class="label">Download resume</p>
+               
+              </div>
+            </div>
 
 
 
