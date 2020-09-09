@@ -11360,54 +11360,47 @@ nav .burger div {
   transform: rotate(45deg) translate(-5px, -6px);
 }
 
-#footer {
+#foot {
+  margin: 0 auto;
   background-color: black;
   padding-top: 80px;
   padding-bottom: 60px;
 }
 
-#footer .container {
-  width: 900px;
+#foot .container {
+  width: 55%;
 }
 
-#footer .social-media-wrapper {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+#foot .contact-line h3 {
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 38px;
 }
 
-#footer .social-group {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+#foot .form-control {
+  background-color: #C4C4C4;
+  border-radius: 0px;
 }
 
-#footer .label {
+#foot .label {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 38px;
 }
 
-#footer .form-control {
-  background-color: #C4C4C4;
-  border-radius: 0px;
+#foot .social-media-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-#footer .form-control.small-width {
-  width: 360px;
-}
-
-#footer .form-control.width {
-  width: 733px;
-}
-
-#footer .form-control.width.height {
-  height: 250px;
-}
-
-#footer .form-group.col-md-6 {
-  margin-right: 0px;
+#foot .social-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }
 
 #work-section {

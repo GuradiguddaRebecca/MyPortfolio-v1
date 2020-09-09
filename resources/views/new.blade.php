@@ -30,7 +30,7 @@
      
         <div class="logo">
           <h1 class="bold">Rebecca G</h1>
-          <p>Software Developer $ Designer</p>
+          <p>Software Developer & Designer</p>
         </div>
         <ul class="nav-links">
           <li><a href="">Work</a></li>
@@ -240,70 +240,55 @@
         
     </section>
 
-    {{-- footer-section  --}}
-    <section id="footer">
-        <div class="container">
-          <div class="wrapper">
 
-            
-
-            <div class="contact-line">
-              <h2>Leave me a message</h2>
-            </div>
-            
-            <form method="post">
-              @csrf
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                      <label class="label" for="inputEmail4">Name:</label>
-                      <input type="text" class="form-control small-width" id="inputEmail4" name="name" >
-                    </div>
-                    <div class="form-group col-md-6">
-                      <label class="label" for="inputPassword4">Email:</label>
-                      <input type="emailt" class="form-control small-width" id="inputPassword4" name="email">
-                    </div>
-                </div>
-                  <div class="form-group ">
-                    <label class="label" for="inputAddress">Subject:</label>
-                    <input type="text" class="form-control width" id="inputAddress" name="subject">
-                  </div>
-                  <div class="form-group ">
-                    <label class="label" for="inputAddress2" >Messaget:</label>
-                    <input type="text" class="form-control width height" name="message" id="inputAddress2" >
-                  </div>
-                  
-                  <button type="submit" class="btn btn-small">SUBMIT</button>
-            </form>
-
-            <div class="social-media-wrapper mt-5">
-              <div class="social-group mr-4">
-                <img class="mr-2" src="./images/mail.png" alt="">
-                <p class="label">E-mail</p>
-                
-              </div>
-              <div class="social-group mr-4">
-                <img class="mr-2" src="./images/linkedin.png" alt="">
-                <p class="label">LinkedIn</p>
-               
-              </div>
-              <div class="social-group mr-4">
-                <img class="mr-2" src="./images/git.png" alt="">
-                <p class="label">Github</p>
-              
-              </div>
-              <div class="social-group mr-4">
-                <img class="mr-2" src="./images/portfolio.png" alt="">
-                <p class="label">Download resume</p>
-               
-              </div>
-            </div>
-
-
-
+    
+    {{-- footer--}}
+    <div id="foot">
+      <div class="container">
+          <div class="contact-line mb-5">
+            <h3>Leave a message</h3>
           </div>
-        </div>
-    </section>
+          <form method="post">
+            @csrf
+              <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label class="label" for="inputEmail4">Name:</label>
+                    <input type="text" class="form-control" id="inputEmail4" name="name" >
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label class="label" for="inputPassword4">Email:</label>
+                    <input type="email" class="form-control" id="inputPassword4" name="email">
+                  </div>
+              </div>
+                <div class="form-group ">
+                  <label class="label" for="inputAddress">Subject:</label>
+                  <input type="text" class="form-control" id="inputAddress" name="subject">
+                </div>
+                <div class="form-group ">
+                  <label class="label" for="inputAddress2" >Message:</label>
+                  <textarea style="height:150px;" class="form-control" name="message" id="inputAddress2" ></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-small">SUBMIT</button>
+          </form>
 
+          {{-- social media --}}
+          <div class="social-media-wrapper mt-5">
+            <div class="social-group mr-4">
+              <img src="./images/mail.png" alt="">
+            </div>
+            <div class="social-group mr-4">
+              <img src="./images/linkedin.png" alt="">
+            </div>
+            <div class="social-group mr-4 mt-1">
+              <img src="./images/git.png" alt="">
+            </div>
+            <div class="social-group mr-4 mt-1">
+              <img src="./images/portfolio.png" alt="">
+            </div>
+          </div>
+      </div>
+    </div>
     
     
 
