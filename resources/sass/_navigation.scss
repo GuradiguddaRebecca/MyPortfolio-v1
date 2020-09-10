@@ -1,148 +1,58 @@
 // Navigation - Navbar
-
-nav {
-    margin-top:40px;
-    margin-bottom:40px;
-    padding-left: 43px;
-    padding-right:15px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    min-height: 8vh;
-    background-color: #1A1B21;
-   
-  }
-  
-  h1.bold{
-    font-weight:900;
+.container-nav{
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  padding:3em .75em;
 }
+.name{
+  font-weight:900;
+}
+.designation{
+  font-weight:700;
+  font-size:.75rem;
+}
+nav ul{
+  list-style:none;
+  display:flex;
+  padding:0;
   
-  nav .nav-links {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    width: 20%;
-  }
+}
+nav li{
+  margin-left:2em;
   
-  nav .nav-links li {
-    list-style: none;
+}
+nav a{
+  text-decoration:none;
+  color:white;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 0.8rem;
+  padding:.25em 0;
+  text-transform:uppercase;
+}
+nav a:hover,
+nav a:focus{
+   color: white;
+}
+
+@media (max-width:576px){
+  .container-nav{
+      flex-direction:column;
   }
-  
-  nav .nav-links li a {
-    color: white;
-    text-decoration: none;
-    letter-spacing: 3px;
-    font-weight: bold;
-    font-size: 0.8rem;
+  nav ul{
+    flex-direction:column;
+    align-items: center;
   }
-  
-  nav .burger {
-    display: none;
+  nav li{
+    margin:.5em 0;
   }
-  
-  nav .burger div {
-    width: 25px;
-    height: 3px;
-    background-color: #e2e2e2;
-    margin: 5px;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+  .border-line{
+    border-bottom:2px solid white;
+    padding-bottom:25px;
   }
-  
-  @media screen and (max-width: 1024px) {
-    .nav-links {
-      width: 60% !important;
-    }
-  }
-  
-  @media screen and (max-width: 768px) {
-    body {
-      overflow-x: hidden;
-    }
-    body .nav-links {
-      position: absolute;
-      right: 0px;
-      height: 25vh;
-      top: 8vh;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: flex-end;
-      background-color: #1A1B21;
-      width: 100% !important;
-      -webkit-transform: translateX(100%);
-              transform: translateX(100%);
-      -webkit-transition: -webkit-transform 0.5s ease-in;
-      transition: -webkit-transform 0.5s ease-in;
-      transition: transform 0.5s ease-in;
-      transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
-    }
-    body .nav-links li {
-      opacity: 0;
-    }
-    body .burger {
-      display: block;
-      cursor: pointer;
-    }
-  }
-  
-  .nav-active {
-    -webkit-transform: translateX(0%) !important;
-            transform: translateX(0%) !important;
-  }
-  
-  @-webkit-keyframes navLinkFade {
-    from {
-      opacity: 0;
-      -webkit-transform: translateX(50px);
-              transform: translateX(50px);
-    }
-    to {
-      opacity: 1;
-      -webkit-transform: translateX(0px);
-              transform: translateX(0px);
-    }
-  }
-  
-  @keyframes navLinkFade {
-    from {
-      opacity: 0;
-      -webkit-transform: translateX(50px);
-              transform: translateX(50px);
-    }
-    to {
-      opacity: 1;
-      -webkit-transform: translateX(0px);
-              transform: translateX(0px);
-    }
-  }
-  
-  .toggle .line1 {
-    -webkit-transform: rotate(-45deg) translate(-5px, 6px);
-            transform: rotate(-45deg) translate(-5px, 6px);
-  }
-  
-  .toggle .line2 {
-    opacity: 0;
-  }
-  
-  .toggle .line3 {
-    -webkit-transform: rotate(45deg) translate(-5px, -6px);
-            transform: rotate(45deg) translate(-5px, -6px);
-  }
+}
+
 
 //footer
 #foot{
@@ -152,7 +62,7 @@ nav {
   padding-top:80px;
   padding-bottom:60px;
   .container{
-    width:55%;
+    width:40%;
   }
 
   .contact-line h3{

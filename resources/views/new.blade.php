@@ -9,43 +9,22 @@
     <link rel="stylesheet" href="/css/app.css">
 </head>
 <body>
-    {{-- Navigation Bar --}}
-    {{-- <header>
-        <div class="container">
-        <div class="nav-wrapper">
-            <div class="left-nav-links">
-                <h1 class="bold">Rebecca G</h1>
-                <p>Software Developer & Designer</p>
-            </div>
-            <div class="right-nav-links">
-                <a class="nav-link" href="">Work</a>
-                <a class="nav-link" href="">About</a>
-                <a class="nav-link" href="">Contact</a>
-            </div>
+    <header>
+      <div class="container container-nav">
+        <div class="name-desig">
+          <h1 class="name">Rebecca G</h1>
+          <p class="designation">Software Developer & Designer</p>
         </div>
-        </div>
-      </header> --}}
 
-    <nav>
-     
-        <div class="logo">
-          <h1 class="bold">Rebecca G</h1>
-          <p>Software Developer & Designer</p>
-        </div>
-        <ul class="nav-links">
-          <li><a href="">Work</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Contact</a></li>
-        </ul>
-
-        <div class="burger">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
-     
-        
-    </nav> 
+        <nav>
+          <ul>
+            <li class="border-line"><a href="">Work</a></li>
+            <li class="border-line"><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
     {{-- Work section --}}
     <section id="work-section">
@@ -129,7 +108,7 @@
     {{-- About section --}}
     <section id="About-section">
         <div class="container">
-           <div class="columns">
+           <div class="about-columns">
                <div class="left-column">
                 <div class="section-title">
                     <h2 style="font-weight:bold;" class="uppercase">About</h2>
@@ -163,7 +142,7 @@
                </div>
 
                <div class="right-column">
-                <img src="./images/techs.png" class="img-fluid" alt="Responsive image">
+                <img src="./images/tech2.png" class="img-fluid" alt="Responsive image">
                </div>
            </div>
             
@@ -246,7 +225,7 @@
     <div id="foot">
       <div class="container">
           <div class="contact-line mb-5">
-            <h3>Leave a message</h3>
+            <h3>Leave a message!!</h3>
           </div>
           <form method="post">
             @csrf
