@@ -15,6 +15,7 @@
 
 @import 'components';
 
+
 *{
     margin:0;
     padding:0;
@@ -26,16 +27,11 @@ body{
   color:white;
 }
 
-.container{
-    margin:0 auto;
-    width: 90%;
-    max-width:1120px;
-    
-}
 
 hr{
-  width:31px;
-  height:4px;
-  background-image:$gradient-color-purple;
-  margin-top:3px;
+  width: 4px;
+  height: 31px;
+  background-color: linear-gradient(180deg, #D61151 0%, #6D24C0 100%);
+  
 }
+

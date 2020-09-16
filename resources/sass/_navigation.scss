@@ -1,57 +1,44 @@
 // Navigation - Navbar
-.container-nav{
-  display:flex;
-  justify-content:space-between;
-  align-items: center;
-  padding:3em .75em;
-}
-.name{
-  font-weight:900;
-}
-.designation{
-  font-weight:700;
-  font-size:.75rem;
-}
-nav ul{
-  list-style:none;
-  display:flex;
-  padding:0;
-  
-}
-nav li{
-  margin-left:2em;
-  
-}
-nav a{
-  text-decoration:none;
+
+header{
+  background-color: $body-bg;
   color:white;
-  letter-spacing: 3px;
-  font-weight: bold;
-  font-size: 0.8rem;
-  padding:.25em 0;
-  text-transform:uppercase;
+  padding:40px 0;
+  .navbar{
+    color:white;
+  }
+  .container{
+    padding:0;
+  }
+  h1.navbar-brand{
+    font-weight: 900;
+    color:white;
+    font-size:32px;
+    margin:0;
+    padding:0;
+  }
+  .nav-item{
+    color:white;
+    text-decoration: none;
+    padding:20px;
+    // padding-right:0;
+    font-size: 18px;
+    line-height: 31px;
+    
+  }
+  .nav-item:hover,
+  .nav-item:focus{
+    color: #FFF;
+    background-color: #252525;
+    text-decoration:none;
 }
-nav a:hover,
-nav a:focus{
-   color: white;
+ 
+
+  
 }
 
-@media (max-width:576px){
-  .container-nav{
-      flex-direction:column;
-  }
-  nav ul{
-    flex-direction:column;
-    align-items: center;
-  }
-  nav li{
-    margin:.5em 0;
-  }
-  .border-line{
-    border-bottom:2px solid white;
-    padding-bottom:25px;
-  }
-}
+
+
 
 
 //footer
@@ -59,10 +46,16 @@ nav a:focus{
   
   margin:0 auto;
   background-color: black;
+  color:white;
   padding-top:80px;
   padding-bottom:60px;
+  
   .container{
-    width:40%;
+    width:60%;
+    // min-width:600px;
+  }
+  a.nav-item.nav-link{
+    color: white;
   }
 
   .contact-line h3{
@@ -75,6 +68,7 @@ nav a:focus{
 
   .form-control{
     background-color: $form-input-color;
+    border:none;
     border-radius:0px;
   }
 

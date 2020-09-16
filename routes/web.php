@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('new');
+    return view('bootstrap');
 });
 
 
@@ -22,11 +22,15 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-// //projects
-// Route::get('/colortoggle', function(){
-//     return view('projects.colortoggle');
-// });
+//projects
+Route::get('/colortoggle', function(){
+    return view('colortoggle');
+});
 
-// Route::get('/todolist',function(){
-//     return view('projects.todolist');
-// });
+Route::get('/todolist',function(){
+    return view('todolist');
+});
+
+Route::get('/patatap',function(){
+    return view('patatap2.circles');
+});

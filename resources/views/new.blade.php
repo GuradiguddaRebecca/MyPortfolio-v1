@@ -34,7 +34,7 @@
                 <h2 style="font-weight:bold;" class="uppercase">work</h2>
                 <hr>
             </div>
-            <div class="row row-cols-1 row-cols-md-3">
+            <div class="row row-cols-1 row-cols-md-3 ">
                 <div class="col mb-4">
                   <div class="card">
                     <img style="width:339px; height:225px;" src="./images/3.png" class="card-img-top" alt="Project Image">
