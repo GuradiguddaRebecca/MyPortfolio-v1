@@ -51,11 +51,8 @@ header{
   padding-bottom:60px;
   
   .container{
-    width:60%;
-    // min-width:600px;
-  }
-  a.nav-item.nav-link{
-    color: white;
+    max-width:700px;
+    width:90%;
   }
 
   .contact-line h3{

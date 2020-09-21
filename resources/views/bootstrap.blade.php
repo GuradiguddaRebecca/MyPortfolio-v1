@@ -33,7 +33,7 @@
               
               <a class="nav-item" href="#about-section"><b>a</b>bout</a>
              
-              <a class="nav-item" href="#footer"><b>c</b>ontact</a>
+              <a class="nav-item" href="#foot"><b>c</b>ontact</a>
              
             </div>
           </div>
@@ -55,19 +55,19 @@
         
           <div class="row ">
               <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="card">
+                <div class="card mg-b">
                   <img src="./images/patatap1.png" class="card-img-top" alt="Project Image">
                   <div class="card-body">
                     <h2 class="card-title">Patatap</h5>
                     <p><span>HTML/ CSS/ JS</span> <span> paper.js</span> <span>howler.js</span></p>
                     <p class="card-text">This project is Patatap. You open up the app, press a key and a circle shows up randomly on screen shrinking in size, A sound also plays and every key has its own unique sound. I had a lot of fun playing with it in my browser </p>
-                    {{-- <a class="project-link" href="">View Project</a> --}}
-                    <button style="margin-top:0px;"class="btn btn-small">View Project</button>
+                    <a class="project-link" href="/patatap">View Project</a>
+                    {{-- <button style="margin-top:0px;"class="btn btn-small">View Project</button> --}}
                   </div>
                 </div>
               </div>
-              <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="card">
+              {{-- <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card mg-b">
                   <img src="./images/2.png" class="card-img-top" alt="Project Image">
                   <div class="card-body">
                     <h2 class="card-title">YelpCamp</h5>
@@ -76,37 +76,37 @@
                     <a class="project-link" href="">View Project</a>
                   </div>
                 </div>
-              </div>
+              </div> --}}
               <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="card">
+                <div class="card mg-b">
                   <img src="./images/1.png" class="card-img-top" alt="Project Image">
                   <div class="card-body">
                     <h2 class="card-title">ColorToggle</h5>
                     <p> <span>HTML/ CSS/ JS</span></p>
                     <p class="card-text">This is a very easy to play Color Game made purely with vanilla JS. The way you play it is you are given an rgb value, and depending on the mode you choose you will be displayed a number of squares. You have to correctly guess which square it is by the rgb value.</p>
-                    <a class="project-link" href="">View Project</a>
+                    <a class="project-link" href="/colortoggle">View Project</a>
                   </div>
                 </div>
               </div>
               <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="card">
+                <div class="card mg-b">
                   <img src="./images/3.png" class="card-img-top" alt="Project Image">
                   <div class="card-body">
                     <h2 class="card-title">Laravel CRUD</h5>
                     <p><span>HTML/ CSS/ JS</span> <span>php</span> <span>Laravel</span></p>
                     <p class="card-text">CRUD stands for Create, Read, Update and Delete which are operations needed in most data-driven apps that access and work with data from a database.</p>
-                    <a class="project-link" href="">View Project</a>
+                    <a class="project-link" href="/todolist">View Project</a>
                   </div>
                 </div>
               </div>
               <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="card">
+                <div class="card mg-b">
                   <img src="./images/4.png" class="card-img-top" alt="Project Image">
                   <div class="card-body">
                     <h2 class="card-title">Todolist</h5>
                     <p> <span>HTML/ CSS/ JS</span></p>
                     <p class="card-text">This one is a super simple to-do list where you can cross out what you have done by clicking on the task or delete it by hovering and hitting the garbage can icon</p>
-                    <a class="project-link" href="">View Project</a>
+                    <a class="project-link" href="/todolist">View Project</a>
                   </div>
                 </div>
               </div>
@@ -121,7 +121,19 @@
                     <a class="project-link" href="">View Project</a>
                   </div>
                 </div>
-              </div>  
+              </div> 
+              
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                  <img src="./images/organo.png" class="card-img-top" alt="Project Image">
+                  <div class="card-body">
+                    <h2 class="card-title">Dot Express</h5>
+                    <p><span>Webflow<span></p>
+                    <p class="card-text">This one is a super simple to-do list where you can cross out what you have done by clicking on the task or delete it by hovering and hitting the garbage can icon</p>
+                    <a class="project-link" href="">View Project</a>
+                  </div>
+                </div>
+              </div> 
           </div>
       </div>
   </section>
@@ -135,7 +147,7 @@
     <hr>
   </div>
     <div class="row">
-      <div class="left col-md-12 col-lg-6">
+      <div class="left col-sm-12 col-md-12 col-lg-6">
         <p>A full-stack web developer and user interface designer with a background in Mathematics, Statistics and Computer Science. Currently employed in Hyderabad, looking for my next professional opportunity.</p>
         
               <h3 class="capab-heading">Proficient in:</h3>
@@ -156,7 +168,7 @@
               <button class="btn">Download Resume</button>
       </div>
       <div class="right col-md-12 col-lg-6">
-        <img src="./images/techmar.png" class="img-fluid" alt="Responsive image">
+        <img src="./images/hitechie.png" class="img-fluid" alt="Responsive image">
       </div>
     </div>
   </div>     
@@ -264,16 +276,16 @@
           {{-- social media --}}
           <div class="social-media-wrapper mt-5">
             <div class="social-group mr-4">
-              <img src="./images/mail.png" alt="">
+              <a href="https://mail.google.com/mail/u/0/#compose"> <img src="./images/mail.png" alt=""></a>
             </div>
             <div class="social-group mr-4">
-              <img src="./images/linkedin.png" alt="">
+              <a href="https://www.linkedin.com/in/rebecca-guradigudda-889390188/"><img src="./images/linkedin.png" alt=""></a>
             </div>
             <div class="social-group mr-4 mt-1">
-              <img src="./images/git.png" alt="">
+              <a href="https://github.com/GuradiguddaRebecca"><img src="./images/git.png" alt=""></a>
             </div>
             <div class="social-group mr-4 mt-1">
-              <img src="./images/portfolio.png" alt="">
+              <a href=""><img src="./images/portfolio.png" alt=""></a>
             </div>
           </div>
       </div>
