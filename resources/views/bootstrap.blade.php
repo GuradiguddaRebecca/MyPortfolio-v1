@@ -141,7 +141,7 @@
                   <div class="card-body">
                     <h2 class="card-title">Quiz App</h5>
                     <p><span>HTML/ CSS/ Vanilla javascript<span></p>
-                    <p class="card-text">This one is a super simple to-do list where you can cross out what you have done by clicking on the task or delete it by hovering and hitting the garbage can icon</p>
+                    <p class="card-text">This is the simple Quiz Application build on HTML, CSS, Javascript. This application will be able to load questions and display the score at the end</p>
                     <a class="project-link" href="/quiz">View Project</a>
                   </div>
                 </div>
@@ -153,7 +153,7 @@
                   <div class="card-body">
                     <h2 class="card-title">Count Down Timer</h5>
                     <p><span>HTML/ CSS/ Vanilla javascript<span></p>
-                    <p class="card-text">This one is a super simple to-do list where you can cross out what you have done by clicking on the task or delete it by hovering and hitting the garbage can icon</p>
+                    <p class="card-text">A simple count Down timer using fundamental HTML, CSS, Vanilla Javascript</p>
                     <a class="project-link" href="/countdown">View Project</a>
                   </div>
                 </div>
