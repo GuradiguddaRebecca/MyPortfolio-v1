@@ -16,6 +16,7 @@
 @import 'components';
 
 
+
 *{
     margin:0;
     padding:0;
@@ -38,6 +39,9 @@ hr{
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 540px) { 
+  body{
+    font-size:2em;
+  }
   header{
     padding:20px 0;
     .container{

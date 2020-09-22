@@ -43,7 +43,7 @@
     .card-text{
         font-size:14px;
         line-height:25px;
-        margin-top:12px;
+        margin-top:4px;
         margin-bottom: 12px;
     }
 
@@ -60,6 +60,7 @@
         font-size:14px;
         line-height:27px;
         margin-right:8px;
+        margin-bottom:8px;
     }
     .project-link{
         color:red;
@@ -150,7 +151,28 @@ h2.section-title{
     }
 }
 
-
+// slider
+#slider{
+    
+    div .carousel-caption{
+        text-align: left;
+        
+        .heading{
+            font-size:18px;
+            font-weight:bold;
+            line-height: 31px;
+            letter-spacing: 0.1em;
+            margin:0 0 5px;
+        }
+        .desc{
+            font-size: 14px;
+            line-height: 25px;
+            letter-spacing: 0.005em;  
+            margin:0 0 8px; 
+        }
+      
+    }
+}
 
  
 

@@ -34,3 +34,9 @@ Route::get('/todolist',function(){
 Route::get('/patatap',function(){
     return view('patatap2.circles');
 });
+Route::get('/quiz',function(){
+    return view('quiz');
+});
+Route::get('/countdown',function(){
+    return view('countdown');
+});
