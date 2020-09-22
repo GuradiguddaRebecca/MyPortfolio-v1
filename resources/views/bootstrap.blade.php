@@ -137,6 +137,18 @@
 
               <div class="col-sm-12 col-md-6 col-lg-4">
                 <div class="card">
+                  <img src="./images/recipe1.png" class="card-img-top" alt="Project Image">
+                  <div class="card-body">
+                    <h2 class="card-title">Recipe App</h5>
+                    <p><span>HTML/ CSS/ Vanilla javascript<span></p>
+                    <p class="card-text">This is the simple Quiz Application build on HTML, CSS, Javascript. This application will be able to load questions and display the score at the end</p>
+                    <a class="project-link" href="/quiz">View Project</a>
+                  </div>
+                </div>
+              </div> 
+
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
                   <img src="./images/quiz11.png" class="card-img-top" alt="Project Image">
                   <div class="card-body">
                     <h2 class="card-title">Quiz App</h5>

@@ -40,3 +40,7 @@ Route::get('/quiz',function(){
 Route::get('/countdown',function(){
     return view('countdown');
 });
+Route::get('/recipe',function(){
+    return view('Recipe');
+});
+
