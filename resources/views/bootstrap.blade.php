@@ -141,7 +141,7 @@
                   <div class="card-body">
                     <h2 class="card-title">Recipe App</h5>
                     <p><span>HTML/ CSS/ Vanilla javascript<span></p>
-                    <p class="card-text">This is the simple Quiz Application build on HTML, CSS, Javascript. This application will be able to load questions and display the score at the end</p>
+                    <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
                     <a class="project-link" href="/quiz">View Project</a>
                   </div>
                 </div>
@@ -165,7 +165,7 @@
                   <div class="card-body">
                     <h2 class="card-title">Count Down Timer</h5>
                     <p><span>HTML/ CSS/ Vanilla javascript<span></p>
-                    <p class="card-text">A simple count Down timer using fundamental HTML, CSS, Vanilla Javascript</p>
+                    <p class="card-text"> If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat</p>
                     <a class="project-link" href="/countdown">View Project</a>
                   </div>
                 </div>
