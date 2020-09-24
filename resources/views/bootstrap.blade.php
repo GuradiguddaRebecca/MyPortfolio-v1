@@ -88,7 +88,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-sm-12 col-md-6 col-lg-4">
+              {{-- <div class="col-sm-12 col-md-6 col-lg-4">
                 <div class="card mg-b">
                   <img src="./images/3.png" class="card-img-top" alt="Project Image">
                   <div class="card-body">
@@ -98,7 +98,7 @@
                     <a class="project-link" href="/todolist">View Project</a>
                   </div>
                 </div>
-              </div>
+              </div> --}}
               <div class="col-sm-12 col-md-6 col-lg-4">
                 <div class="card mg-b">
                   <img src="./images/4.png" class="card-img-top" alt="Project Image">
