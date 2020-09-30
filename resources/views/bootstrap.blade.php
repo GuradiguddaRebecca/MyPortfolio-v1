@@ -81,9 +81,9 @@
                         <div class="card-body">
                             <h2 class="card-title">ColorToggle</h2>
                             <p> <span>HTML/ CSS/ JS</span></p>
-                            <p class="card-text">This is a very easy to play Color Game made purely with vanilla JS.
-                                The way you play it is you are given an rgb value, and depending on the mode you
-                                choose you will be displayed a number of squares. You have to correctly guess which
+                            <p class="card-text">This is an easy Color Game made purely with vanilla JS.
+                                You will be given an rgb value, and depending on the mode you
+                                choose the number of squares to be displayed. Then have to correctly guess which
                                 square it is by the rgb value.</p>
                             <a class="p-link" href="projects/colortoggle" target="_blank">View Project &#8594;</a>
                         </div>
@@ -99,10 +99,10 @@
                         <div class="card-body">
                             <h2 class="card-title">E-commerce website</h2>
                             <p> <span>HTML/ CSS/ JS</span></p>
-                            <p class="card-text"> This is an eCommerce website using HTML and CSS.
-                                In this e-commerce website design we will create Home page of
-                                eCommerce website with banner section, some featured categories images,
-                                then some featured products with product price, image and rating. </p>
+                            <p class="card-text"> This is an e-commerce website using HTML and CSS.  This website is design centric.
+                                There is Home page with
+                             banner section, some featured categories images,
+                                then some featured products with product price, image and rating.</p>
                             <a class="p-link" href="projects/ecommerce" target="_blank">View Project &#8594;</a>
                         </div>
                     </div>
@@ -153,8 +153,8 @@
                         <div class="card-body">
                             <h2 class="card-title">Quiz App</h2>
                             <p><span>HTML/ CSS/ Vanilla javascript<span></p>
-                            <p class="card-text">This is the simple Quiz Application build on HTML, CSS, Javascript.
-                                This application will be able to load questions and display the score at the end</p>
+                            <p class="card-text">A simple Quiz Application build on HTML, CSS, Javascript.
+                                This application will be able to load questions and you need to select an answer then submit each question. Finally the score will be displayed at the end</p>
                             <a class="p-link" href="projects/quiz" target="_blank">View Project &#8594;</a>
                         </div>
                     </div>
@@ -169,9 +169,7 @@
                         <div class="card-body">
                             <h2 class="card-title">Count Down Timer</h2>
                             <p><span>HTML/ CSS/ Vanilla javascript<span></p>
-                            <p class="card-text"> If you are going to use a passage of Lorem Ipsum, you need to be
-                                sure there isn't anything embarrassing hidden in the middle of text. All the Lorem
-                                Ipsum generators on the Internet tend to repeat</p>
+                            <p class="card-text"> A count down timer build on HTML, CSS, Javascript which specifies days, hours, minutes and secounds left for the target date.</p>
                             <a class="p-link" href="projects/countdown" target="_blank">View Project &#8594;</a>
                         </div>
                     </div>

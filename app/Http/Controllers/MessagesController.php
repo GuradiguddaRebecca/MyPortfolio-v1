@@ -97,5 +97,5 @@ class MessagesController extends Controller
 
       return redirect('/')->with('success', 'Successfully deleted your contact!');
     }
-    }
 }
+
