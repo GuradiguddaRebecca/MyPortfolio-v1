@@ -17,30 +17,42 @@ Route::get('/', function () {
     return view('bootstrap');
 });
 
+Route::get('/project', function () {
+    return view('project');
+});
+
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
 //projects
-Route::get('/colortoggle', function(){
-    return view('colortoggle');
+Route::get('/projects/colortoggle', function(){
+    return view('projects.colortoggle');
 });
 
-Route::get('/todolist',function(){
-    return view('todolist');
+Route::get('projects/todolist',function(){
+    return view('projects.todolist');
 });
 
-Route::get('/patatap',function(){
-    return view('patatap2.circles');
+Route::get('projects/patatap2',function(){
+    return view('projects.patatap2.circles');
 });
-Route::get('/quiz',function(){
-    return view('quiz');
+Route::get('projects/quiz',function(){
+    return view('projects.quiz');
 });
-Route::get('/countdown',function(){
-    return view('countdown');
+Route::get('projects/countdown',function(){
+    return view('projects.countdown');
 });
-Route::get('/recipe',function(){
-    return view('Recipe');
+Route::get('projects/recipe',function(){
+    return view('projects.recipe');
 });
+
+Route::get('/projects/ecommerce',function(){
+    return view('projects.ecommerce');
+});
+
+Route::get('/messages','MessagesController@index');
+
+Route::resource('message', 'MessagesController');
 

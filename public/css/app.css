@@ -11325,7 +11325,7 @@ header .nav-item:focus {
 
 #work-section {
   background-color: #1A1B21;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
 }
 
 #work-section hr {
@@ -11336,12 +11336,13 @@ header .nav-item:focus {
 }
 
 #work-section img {
-  width: 340px;
-  height: 210px;
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-#work-section .row.row-cols-1.row-cols-md-3 {
-  padding: 10px 0px 0px;
+#work-section .card-cont:nth-last-of-type(3) {
   margin-bottom: 0;
 }
 
@@ -11349,12 +11350,28 @@ header .nav-item:focus {
   background-color: #1A1B21;
   color: white;
   border: none;
-  margin-bottom: 0;
+  margin-bottom: 15px;
 }
 
 #work-section .card-body {
   padding: 15px 0;
   margin-bottom: 10px;
+}
+
+#work-section .card-body a.p-link {
+  display: inline-block;
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+#work-section .card-body a.p-link:hover {
+  border: 2px solid red;
+  background-color: transparent;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 #work-section .card-title {
@@ -11389,15 +11406,13 @@ header .nav-item:focus {
   margin-bottom: 8px;
 }
 
-#work-section .project-link {
+#work-section a.project-link {
   color: red;
   font-weight: bold;
 }
 
-#work-section .project-link:hover,
-#work-section .project-link:focus {
-  color: red;
-  text-decoration: underline;
+#work-section a.project-link:hover {
+  color: white;
 }
 
 button.btn {
@@ -11411,6 +11426,15 @@ button.btn {
   font-weight: bolder;
   margin-top: 15px;
   background-image: linear-gradient(180deg, #D61151 0%, #6D24C0 100%);
+}
+
+button.btn a {
+  color: white;
+}
+
+button.btn a:hover {
+  color: blue;
+  text-decoration: none;
 }
 
 .btn.btn-small {
@@ -11442,16 +11466,21 @@ h2.section-title {
 }
 
 #about-section {
-  padding: 3.5em 0;
+  padding-top: 5em;
+  padding-bottom: 5em;
   background-color: white;
   flex-direction: column;
   color: black;
 }
 
+#about-section .container {
+  padding: 0px 0px;
+}
+
 #about-section .list-group-item {
-  padding: 20px 0px;
+  margin-bottom: 25px;
   border: none;
-  padding: 15px 0;
+  padding: 0;
 }
 
 #about-section hr {
@@ -11459,6 +11488,19 @@ h2.section-title {
   height: 4px;
   background-image: linear-gradient(180deg, #D61151 0%, #6D24C0 100%);
   margin-top: 1px;
+}
+
+#about-section .row {
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+}
+
+#about-section .about-para {
+  margin-bottom: 40px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 31px;
 }
 
 #about-section .capab-heading {
@@ -11470,23 +11512,41 @@ h2.section-title {
   margin: 0;
 }
 
-#slider div .carousel-caption {
+#about-section .left {
+  padding: 0;
+}
+
+#about-section .right {
+  padding: 70px 0px;
+  text-align: right;
+  margin-left: -50px;
+}
+
+#about-section .tech-img {
+  width: 100%;
+  text-align: right;
+}
+
+#slide {
+  background-color: #1A1B21;
+  align-items: center;
+  justify-content: center;
+}
+
+#slide .slide {
   text-align: left;
 }
 
-#slider div .carousel-caption .heading {
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 31px;
-  letter-spacing: 0.1em;
-  margin: 0 0 5px;
+#slide h5 {
+  font-weight: bolder;
 }
 
-#slider div .carousel-caption .desc {
-  font-size: 14px;
-  line-height: 25px;
-  letter-spacing: 0.005em;
-  margin: 0 0 8px;
+#slide p {
+  margin-bottom: 5px;
+}
+
+#slide img {
+  width: 100%;
 }
 
 * {
@@ -11506,7 +11566,7 @@ hr {
   background-color: linear-gradient(180deg, #D61151 0%, #6D24C0 100%);
 }
 
-@media (max-width: 540px) {
+@media (max-width: 720px) {
   body {
     font-size: 2em;
   }
@@ -11527,12 +11587,21 @@ hr {
     margin-bottom: 15px;
   }
 
+  #about-section .row {
+    justify-content: center;
+    align-items: center;
+  }
+
   #about-section .container {
     padding: 0 30px;
   }
 
   #about-section .right {
-    padding-right: 40px;
+    align-items: center;
+  }
+
+  #about-section .right img {
+    text-align: center;
   }
 }
 

@@ -2,33 +2,59 @@
 // work
 #work-section{
     background-color: $body-bg;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
     hr{
         width:31px;
         height:4px;
         background-image:$gradient-color-purple;
         margin-top:3px;
     }
+    
     img{
-       width:340px;
-       height:210px;
+       width:100%;
+       height:200px;
+       object-fit: cover;
+
     }
 
-    .row.row-cols-1.row-cols-md-3{
-        padding:10px 0px 0px;
+    // .row.row-cols-1.row-cols-md-3{
+    //     // padding:10px 0px 0px;
+    //     // margin-bottom:0;
+    // }
+
+    .card-cont:nth-last-of-type(3){
+        // background-color: red;
         margin-bottom:0;
     }
+    
    
     .card{
         background-color:#1A1B21;
         color:white;
         border:none;
-        margin-bottom: 0;
+        margin-bottom: 15px;
+       
     }
+
+
 
     .card-body{
         padding:15px 0;
         margin-bottom:10px;
+        a.p-link{
+            display:inline-block;
+            color:white;
+            font-weight: bolder;
+            text-decoration: none;
+        }
+        a.p-link:hover{
+            border: 2px solid red;
+            background-color: transparent;
+            color: white;
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: pointer;
+        }
     }
 
     .card-title{
@@ -62,14 +88,12 @@
         margin-right:8px;
         margin-bottom:8px;
     }
-    .project-link{
+    a.project-link{
         color:red;
         font-weight:bold;
     }
-    .project-link:hover,
-    .project-link:focus{
-        color: red;
-        text-decoration:underline;
+    a.project-link:hover{
+        color: white;
     }
 
 }      
@@ -89,8 +113,17 @@ button.btn{
     margin-top:15px;
     background-image: $gradient-color-purple;
     // opacity: 0.85;
+    a{
+        color:white;
+    }
+    a:hover{
+        color:blue;
+        text-decoration:none;
+    }
     
 }
+
+
 
 .btn.btn-small{
     background: $gradient-color-purple;
@@ -125,22 +158,38 @@ h2.section-title{
 
 
 #about-section{
-    padding:3.5em 0;
+    padding-top:5em;
+    padding-bottom: 5em;
     background-color: white; 
     flex-direction: column; 
     color:black;
-    
-    .list-group-item{
-        padding:20px 0px;
-        border:none;
-        padding:15px 0;
+    .container{
+        padding:0px 0px;
     }
+    .list-group-item{
+        margin-bottom:25px;
+        border:none;
+        padding:0;
+    }
+
     hr{
         width:31px;
         height:4px;
         background-image:$gradient-color-purple;
         margin-top:1px;
     }
+    .row{
+        align-items:center;
+        justify-content: space-between;
+        margin:0;
+    }
+    .about-para{
+        margin-bottom: 40px;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 31px;
+    }
+
     .capab-heading{
         font-weight: bold;
         font-size: 18px;
@@ -149,29 +198,42 @@ h2.section-title{
         letter-spacing: 0.01em;
         margin:0;
     }
+    .left{
+        padding:0;
+    }
+    .right{
+        padding:70px 0px;
+        text-align: right;
+        margin-left:-50px;
+    }
+    .tech-img{
+        width:100%;
+        text-align: right;
+    }
+    
+
 }
 
 // slider
-#slider{
-    
-    div .carousel-caption{
+#slide{
+    background-color: #1A1B21;
+    align-items:center;
+    justify-content: center;
+    .slide{
         text-align: left;
-        
-        .heading{
-            font-size:18px;
-            font-weight:bold;
-            line-height: 31px;
-            letter-spacing: 0.1em;
-            margin:0 0 5px;
-        }
-        .desc{
-            font-size: 14px;
-            line-height: 25px;
-            letter-spacing: 0.005em;  
-            margin:0 0 8px; 
-        }
-      
+       
     }
+    h5{
+    font-weight: bolder;
+    }
+    p{
+    margin-bottom:5px;
+    }
+
+    img{
+        width:100%;
+    }
+    
 }
 
  

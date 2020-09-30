@@ -38,7 +38,7 @@ hr{
 }
 
 // Extra small devices (portrait phones, less than 576px)
-@media (max-width: 540px) { 
+@media (max-width: 720px) { 
   body{
     font-size:2em;
   }
@@ -59,11 +59,19 @@ hr{
     
   }
   #about-section{
+    .row{
+      justify-content: center;
+      align-items: center;
+    }
     .container{
       padding:0 30px;
     }
     .right{
-      padding-right:40px;
+      align-items: center;
+      img{
+        text-align: center;
+      }
+     
     }
   }
 }
