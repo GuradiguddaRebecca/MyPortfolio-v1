@@ -52,6 +52,14 @@ Route::get('/projects/ecommerce',function(){
     return view('projects.ecommerce');
 });
 
+Route::get('/projects/todo',function(){
+    return view('projects.Todo');
+});
+
+// Route::get('/projects/bootstrap',function(){
+//     return view()
+// })
+
 Route::get('/messages','MessagesController@index');
 
 Route::resource('message', 'MessagesController');

@@ -15,202 +15,206 @@
 
 <body>
 
-    <!-- Nav bar -->
-    <header>
-        <div class="container">
-            <nav class="navbar sticky-top navbar-dark navbar-expand-lg">
-                <span>
-                    <h1 class="navbar-brand" href="#">Rebecca G</h1>
-                    <p class="designation">Software Developer & Designer</p>
+   <!-- Nav bar -->
+   <header>
+    <div class="container">
+        <nav class="navbar sticky-top navbar-dark navbar-expand-lg">
+            <span>
+                <h1 class="navbar-brand" href="#">Rebecca G</h1>
+                <p class="designation">Software Developer & Designer</p>
+            </span>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
                 </span>
+            </button>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon">
-                    </span>
-                </button>
+            <div class="nav justify-content-end collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item" href="/project"><b>w</b>ork</a>
+                    <a class="nav-item" href="/#about-section"><b>a</b>bout</a>
+                    <a class="nav-item" href="#foot"><b>c</b>ontact</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
 
-                <div class="nav justify-content-end collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-item" href="/project"><b>w</b>ork</a>
-                        <a class="nav-item" href="#about-section"><b>a</b>bout</a>
-                        <a class="nav-item" href="#foot"><b>c</b>ontact</a>
+
+
+{{-- Work section --}}
+<section id="work-section">
+    <div class="container">
+
+        <div class="section-header">
+            <h2 class="section-title">work</h2>
+            <hr>
+        </div>
+
+
+        <div class="row ">
+            <div class="col-sm-12 col-md-6 col-lg-4 card-cont">
+                <div class="card mg-b">
+                    <div class="img-wrap">
+                        <img src="./images/patatap1.png" class="card-img-top" alt="Project Image">
+                    </div>
+
+                    <div class="card-body">
+                        <h2 class="card-title">Patatap</h2>
+                        <p><span>HTML/ CSS/ JS</span> <span> paper.js</span> <span>howler.js</span></p>
+                        <p class="card-text">This project is Patatap. You open up the app, press a key and a
+                            circle shows up randomly on screen shrinking in size, A sound also plays and every
+                            key has its own unique sound. I had a lot of fun playing with it in my browser </p>
+                        <a class="p-link" href="projects/patatap2" target="_blank">View Project </a>
+                        {{-- <button style="margin-top:0px;"class="btn btn-small">View Project</button> --}}
                     </div>
                 </div>
-            </nav>
-        </div>
-    </header>
+            </div>
 
-    <section id="work-section">
-        <div class="container">
+            <div class="col-sm-12 col-md-6 col-lg-4 card-cont">
+                <div class="card mg-b">
+                    <div class="img-wrap">
+                        <img src="./images/1.png" class="card-img-top" alt="Project Image">
+                    </div>
 
-            <div class="section-header">
-                <h2 class="section-title">work</h2>
-                <hr>
+                    <div class="card-body">
+                        <h2 class="card-title">ColorToggle</h2>
+                        <p> <span>HTML/ CSS/ JS</span></p>
+                        <p class="card-text">This is an easy Color Game made purely with vanilla JS.
+                            You will be given an rgb value, and depending on the mode you
+                            choose the number of squares to be displayed. Then have to correctly guess which
+                            square it is by the rgb value.</p>
+                        <a class="p-link" href="projects/colortoggle" target="_blank">View Project </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4 card-cont">
+                <div class="card mg-b">
+                    <div class="img-wrap">
+                        <img src="./images/Ecommerce.png" class="card-img-top" alt="Project Image">
+                    </div>
+
+                    <div class="card-body">
+                        <h2 class="card-title">E-commerce website</h2>
+                        <p> <span>HTML/ CSS/ JS</span></p>
+                        <p class="card-text"> This is an e-commerce website using HTML and CSS.  This website is design centric.
+                            There is Home page with
+                         banner section, some featured categories images,
+                            then some featured products with product price, image and rating.</p>
+                        <a class="p-link" href="projects/ecommerce" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4 card-cont">
+                <div class="card mg-b">
+                    <div class="img-wrap">
+                        <img src="./images/4.png" class="card-img-top" alt="Project Image">
+                    </div>
+
+                    <div class="card-body">
+                        <h2 class="card-title">Todolist</h2>
+                        <p> <span>HTML/ CSS/ JS</span></p>
+                        <p class="card-text">This one is a super simple to-do list where you can cross out what
+                            you have done by clicking on the task or delete it by hovering and hitting the
+                            garbage can icon</p>
+                        <a class="p-link" href="projects/todolist" target="_blank">View Project </a>
+                    </div>
+                </div>
             </div>
 
 
-            <div class="row ">
-                <div class="col-sm-12 col-md-6 col-lg-4 card-cont">
-                    <div class="card mg-b">
-                        <div class="img-wrap">
-                            <img src="./images/patatap1.png" class="card-img-top" alt="Project Image">
-                        </div>
 
-                        <div class="card-body">
-                            <h2 class="card-title">Patatap</h5>
-                                <p><span>HTML/ CSS/ JS</span> <span> paper.js</span> <span>howler.js</span></p>
-                                <p class="card-text">This project is Patatap. You open up the app, press a key and a
-                                    circle shows up randomly on screen shrinking in size, A sound also plays and every
-                                    key has its own unique sound. I had a lot of fun playing with it in my browser </p>
-                                <a class="project-link" href="projects/patatap2" target="_blank">View Project</a>
-                                {{-- <button style="margin-top:0px;"class="btn btn-small">View Project</button> --}}
-                        </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 card-cont">
+                <div class="card">
+                    <div class="img-wrap">
+                        <img src="./images/recipe1.png" class="card-img-top" alt="Project Image">
+                    </div>
+
+                    <div class="card-body">
+                        <h2 class="card-title">Recipe App</h2>
+                        <p><span>HTML/ CSS/ Vanilla javascript<span></p>
+                        <p class="card-text">There are many variations of passages of Lorem Ipsum available, but
+                            the majority have suffered alteration in some form, by injected humour, or
+                            randomised words which don't look even slightly believable</p>
+                        <a class="p-link" href="projects/recipe" target="_blank">View Project</a>
                     </div>
                 </div>
-
-                <div class="col-sm-12 col-md-6 col-lg-4 card-cont">
-                    <div class="card mg-b">
-                        <div class="img-wrap">
-                            <img src="./images/1.png" class="card-img-top" alt="Project Image">
-                        </div>
-
-                        <div class="card-body">
-                            <h2 class="card-title">ColorToggle</h5>
-                                <p> <span>HTML/ CSS/ JS</span></p>
-                                <p class="card-text">This is a very easy to play Color Game made purely with vanilla JS.
-                                    The way you play it is you are given an rgb value, and depending on the mode you
-                                    choose you will be displayed a number of squares. You have to correctly guess which
-                                    square it is by the rgb value.</p>
-                                <a class="project-link" href="projects/colortoggle" target="_blank">View Project</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-md-6 col-lg-4 card-cont">
-                    <div class="card mg-b">
-                        <div class="img-wrap">
-                            <img src="./images/Ecommerce.png" class="card-img-top" alt="Project Image">
-                        </div>
-
-                        <div class="card-body">
-                            <h2 class="card-title">E-commerce website</h5>
-                                <p> <span>HTML/ CSS/ JS</span></p>
-                                <p class="card-text">This is a very easy to play Color Game made purely with vanilla JS.
-                                    The way you play it is you are given an rgb value, and depending on the mode you
-                                    choose you will be displayed a number of squares. You have to correctly guess which
-                                    square it is by the rgb value.</p>
-                                <a class="project-link" href="projects/ecommerce" target="_blank">View Project</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-md-6 col-lg-4 card-cont">
-                    <div class="card mg-b">
-                        <div class="img-wrap">
-                            <img src="./images/4.png" class="card-img-top" alt="Project Image">
-                        </div>
-
-                        <div class="card-body">
-                            <h2 class="card-title">Todolist</h5>
-                                <p> <span>HTML/ CSS/ JS</span></p>
-                                <p class="card-text">This one is a super simple to-do list where you can cross out what
-                                    you have done by clicking on the task or delete it by hovering and hitting the
-                                    garbage can icon</p>
-                                <a class="project-link" href="projects/todolist" target="_blank">View Project</a>
-                        </div>
-                    </div>
-                </div>
-
-
-
-                <div class="col-sm-12 col-md-6 col-lg-4 card-cont">
-                    <div class="card">
-                        <div class="img-wrap">
-                            <img src="./images/recipe1.png" class="card-img-top" alt="Project Image">
-                        </div>
-
-                        <div class="card-body">
-                            <h2 class="card-title">Recipe App</h5>
-                                <p><span>HTML/ CSS/ Vanilla javascript<span></p>
-                                <p class="card-text">There are many variations of passages of Lorem Ipsum available, but
-                                    the majority have suffered alteration in some form, by injected humour, or
-                                    randomised words which don't look even slightly believable</p>
-                                <a class="project-link" href="projects/recipe" target="_blank">View Project</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-md-6 col-lg-4 card-cont">
-                    <div class="card">
-                        <div class="img-wrap">
-                            <img src="./images/quiz11.png" class="card-img-top" alt="Project Image">
-                        </div>
-
-                        <div class="card-body">
-                            <h2 class="card-title">Quiz App</h5>
-                                <p><span>HTML/ CSS/ Vanilla javascript<span></p>
-                                <p class="card-text">This is the simple Quiz Application build on HTML, CSS, Javascript.
-                                    This application will be able to load questions and display the score at the end</p>
-                                <a class="project-link" href="projects/quiz" target="_blank">View Project</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-md-6 col-lg-4 card-cont">
-                    <div class="card">
-                        <div class="img-wrap">
-                            <img src="./images/newyear.png" class="card-img-top" alt="Project Image">
-                        </div>
-
-                        <div class="card-body">
-                            <h2 class="card-title">Count Down Timer</h5>
-                                <p><span>HTML/ CSS/ Vanilla javascript<span></p>
-                                <p class="card-text"> If you are going to use a passage of Lorem Ipsum, you need to be
-                                    sure there isn't anything embarrassing hidden in the middle of text. All the Lorem
-                                    Ipsum generators on the Internet tend to repeat</p>
-                                <a class="project-link" href="projects/countdown" target="_blank">View Project</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-md-6 col-lg-4 card-cont">
-                    <div class="card">
-                        <div class="img-wrap">
-                            <img src="./images/dotexpress.png" class="card-img-top" alt="Project Image">
-                        </div>
-
-                        <div class="card-body">
-                            <h2 class="card-title">Dot Express</h5>
-                                <p><span>Webflow<span></p>
-                                <p class="card-text">This one is a super simple to-do list where you can cross out what
-                                    you have done by clicking on the task or delete it by hovering and hitting the
-                                    garbage can icon</p>
-                                <a class="project-link" href="" target="_blank">View Project</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-md-6 col-lg-4 card-cont">
-                    <div class="card">
-                        <div class="img-wrap">
-                            <img src="./images/organo.png" class="card-img-top" alt="Project Image">
-                        </div>
-                        <div class="card-body">
-                            <h2 class="card-title">Organo</h5>
-                                <p><span>Webflow<span></p>
-                                <p class="card-text">This one is a super simple to-do list where you can cross out what
-                                    you have done by clicking on the task or delete it by hovering and hitting the
-                                    garbage can icon</p>
-                                <a class="project-link" href="" target="_blank">View Project</a>
-                        </div>
-                    </div>
-                </div>
-
             </div>
-            <button class="btn"><a href="/project">VIEW MORE PROJECTS</a></button>
+
+            <div class="col-sm-12 col-md-6 col-lg-4 card-cont">
+                <div class="card">
+                    <div class="img-wrap">
+                        <img src="./images/quiz11.png" class="card-img-top" alt="Project Image">
+                    </div>
+
+                    <div class="card-body">
+                        <h2 class="card-title">Quiz App</h2>
+                        <p><span>HTML/ CSS/ Vanilla javascript<span></p>
+                        <p class="card-text">A simple Quiz Application build on HTML, CSS, Javascript.
+                            This application will be able to load questions and you need to select an answer then submit each question. Finally the score will be displayed at the end</p>
+                        <a class="p-link" href="projects/quiz" target="_blank">View Project </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4 card-cont">
+                <div class="card">
+                    <div class="img-wrap">
+                        <img src="./images/newyear.png" class="card-img-top" alt="Project Image">
+                    </div>
+
+                    <div class="card-body">
+                        <h2 class="card-title">Count Down Timer</h2>
+                        <p><span>HTML/ CSS/ Vanilla javascript<span></p>
+                        <p class="card-text"> A count down timer build on HTML, CSS, Javascript which specifies days, hours, minutes and secounds left for the target date.</p>
+                        <a class="p-link" href="projects/countdown" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4 card-cont">
+                <div class="card">
+                    <div class="img-wrap">
+                        <img src="./images/dotexpress.png" class="card-img-top" alt="Project Image">
+                    </div>
+
+                    <div class="card-body">
+                        <h2 class="card-title">Dot Express</h2>
+                        <p><span>Webflow<span></p>
+                        <p class="card-text">This one is a super simple to-do list where you can cross out what
+                            you have done by clicking on the task or delete it by hovering and hitting the
+                            garbage can icon</p>
+                        <a class="p-link" href="" target="_blank">View Project </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4 card-cont">
+                <div class="card">
+                    <div class="img-wrap">
+                        <img src="./images/organo.png" class="card-img-top" alt="Project Image">
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-title">Organo</h2>
+                        <p><span>Webflow<span></p>
+                        <p class="card-text">This one is a super simple to-do list where you can cross out what
+                            you have done by clicking on the task or delete it by hovering and hitting the
+                            garbage can icon</p>
+                        <a class="p-link" href="" target="_blank">View Project </a>
+                    </div>
+                </div>
+            </div>
+
         </div>
-    </section>
+        {{-- <div class="main-btn">
+            <a href="/project" class="btn">VIEW MORE PROJECTS</a></button>
+        </div> --}}
+        
+    </div>
+</section>
 
 
 

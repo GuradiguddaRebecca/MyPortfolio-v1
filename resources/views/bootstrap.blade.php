@@ -108,7 +108,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-12 col-md-6 col-lg-4 card-cont">
+                {{-- <div class="col-sm-12 col-md-6 col-lg-4 card-cont">
                     <div class="card mg-b">
                         <div class="img-wrap">
                             <img src="./images/4.png" class="card-img-top" alt="Project Image">
@@ -123,7 +123,7 @@
                             <a class="p-link" href="projects/todolist" target="_blank">View Project </a>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
 
 
@@ -160,7 +160,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-12 col-md-6 col-lg-4 card-cont">
+                {{-- <div class="col-sm-12 col-md-6 col-lg-4 card-cont">
                     <div class="card">
                         <div class="img-wrap">
                             <img src="./images/newyear.png" class="card-img-top" alt="Project Image">
@@ -173,7 +173,7 @@
                             <a class="p-link" href="projects/countdown" target="_blank">View Project</a>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
                 <div class="col-sm-12 col-md-6 col-lg-4 card-cont">
                     <div class="card">
@@ -192,7 +192,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-12 col-md-6 col-lg-4 card-cont">
+                {{-- <div class="col-sm-12 col-md-6 col-lg-4 card-cont">
                     <div class="card">
                         <div class="img-wrap">
                             <img src="./images/organo.png" class="card-img-top" alt="Project Image">
@@ -206,7 +206,7 @@
                             <a class="p-link" href="" target="_blank">View Project </a>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
             </div>
             <div class="main-btn">
