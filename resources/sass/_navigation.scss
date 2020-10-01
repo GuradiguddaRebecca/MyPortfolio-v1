@@ -1,15 +1,14 @@
-// Navigation - Navbar
-
 header{
   background-color: $body-bg;
   color:white;
   padding:40px 0;
+  margin:0;
   .navbar{
     color:white;
-  }
-  .container{
     padding:0;
   }
+ 
+  
   h1.navbar-brand{
     font-weight: 900;
     color:white;
@@ -20,26 +19,19 @@ header{
   .nav-item{
     color:white;
     text-decoration: none;
-    padding:20px;
-    // padding-right:0;
-    font-size: 18px;
+    padding:.30em;
+    margin-left:.50em;
+    font-size: 1.2rem;
     line-height: 31px;
     
   }
-  .nav-item:hover,
-  .nav-item:focus{
+  .nav-item:hover{
     color: #FFF;
-    background-color: #252525;
-    text-decoration:none;
+    border-bottom:3px solid white;
+    // margin-bottom:3px;
+    text-decoration: none;
 }
- 
-
-  
 }
-
-
-
-
 
 //footer
 #foot{
@@ -47,8 +39,8 @@ header{
   margin:0 auto;
   background-color: black;
   color:white;
-  padding-top:80px;
-  padding-bottom:60px;
+  padding-top:7em;
+  padding-bottom:7em;
   
   .container{
     max-width:700px;
@@ -59,7 +51,7 @@ header{
     text-align: center;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 38px;
   }
 
@@ -72,7 +64,7 @@ header{
   .label{
     font-style: normal;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 38px;
   }
   .social-media-wrapper{

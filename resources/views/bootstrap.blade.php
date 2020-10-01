@@ -66,7 +66,7 @@
                             <p class="card-text">This project is Patatap. You open up the app, press a key and a
                                 circle shows up randomly on screen shrinking in size, A sound also plays and every
                                 key has its own unique sound. I had a lot of fun playing with it in my browser </p>
-                            <a class="p-link" href="projects/patatap2" target="_blank">View Project &#8594;</a>
+                            <a class="p-link" href="projects/patatap2" target="_blank">View Project </a>
                             {{-- <button style="margin-top:0px;"class="btn btn-small">View Project</button> --}}
                         </div>
                     </div>
@@ -85,7 +85,7 @@
                                 You will be given an rgb value, and depending on the mode you
                                 choose the number of squares to be displayed. Then have to correctly guess which
                                 square it is by the rgb value.</p>
-                            <a class="p-link" href="projects/colortoggle" target="_blank">View Project &#8594;</a>
+                            <a class="p-link" href="projects/colortoggle" target="_blank">View Project </a>
                         </div>
                     </div>
                 </div>
@@ -103,7 +103,7 @@
                                 There is Home page with
                              banner section, some featured categories images,
                                 then some featured products with product price, image and rating.</p>
-                            <a class="p-link" href="projects/ecommerce" target="_blank">View Project &#8594;</a>
+                            <a class="p-link" href="projects/ecommerce" target="_blank">View Project</a>
                         </div>
                     </div>
                 </div>
@@ -120,7 +120,7 @@
                             <p class="card-text">This one is a super simple to-do list where you can cross out what
                                 you have done by clicking on the task or delete it by hovering and hitting the
                                 garbage can icon</p>
-                            <a class="p-link" href="projects/todolist" target="_blank">View Project &#8594;</a>
+                            <a class="p-link" href="projects/todolist" target="_blank">View Project </a>
                         </div>
                     </div>
                 </div>
@@ -139,7 +139,7 @@
                             <p class="card-text">There are many variations of passages of Lorem Ipsum available, but
                                 the majority have suffered alteration in some form, by injected humour, or
                                 randomised words which don't look even slightly believable</p>
-                            <a class="p-link" href="projects/recipe" target="_blank">View Project &#8594;</a>
+                            <a class="p-link" href="projects/recipe" target="_blank">View Project</a>
                         </div>
                     </div>
                 </div>
@@ -155,7 +155,7 @@
                             <p><span>HTML/ CSS/ Vanilla javascript<span></p>
                             <p class="card-text">A simple Quiz Application build on HTML, CSS, Javascript.
                                 This application will be able to load questions and you need to select an answer then submit each question. Finally the score will be displayed at the end</p>
-                            <a class="p-link" href="projects/quiz" target="_blank">View Project &#8594;</a>
+                            <a class="p-link" href="projects/quiz" target="_blank">View Project </a>
                         </div>
                     </div>
                 </div>
@@ -170,7 +170,7 @@
                             <h2 class="card-title">Count Down Timer</h2>
                             <p><span>HTML/ CSS/ Vanilla javascript<span></p>
                             <p class="card-text"> A count down timer build on HTML, CSS, Javascript which specifies days, hours, minutes and secounds left for the target date.</p>
-                            <a class="p-link" href="projects/countdown" target="_blank">View Project &#8594;</a>
+                            <a class="p-link" href="projects/countdown" target="_blank">View Project</a>
                         </div>
                     </div>
                 </div>
@@ -187,7 +187,7 @@
                             <p class="card-text">This one is a super simple to-do list where you can cross out what
                                 you have done by clicking on the task or delete it by hovering and hitting the
                                 garbage can icon</p>
-                            <a class="p-link" href="" target="_blank">View Project &#8594;</a>
+                            <a class="p-link" href="" target="_blank">View Project </a>
                         </div>
                     </div>
                 </div>
@@ -203,13 +203,16 @@
                             <p class="card-text">This one is a super simple to-do list where you can cross out what
                                 you have done by clicking on the task or delete it by hovering and hitting the
                                 garbage can icon</p>
-                            <a class="p-link" href="" target="_blank">View Project &#8594;</a>
+                            <a class="p-link" href="" target="_blank">View Project </a>
                         </div>
                     </div>
                 </div>
 
             </div>
-            <button class="btn"><a href="/project">VIEW MORE PROJECTS</a></button>
+            <div class="main-btn">
+                <a href="/project" class="btn">VIEW MORE PROJECTS</a></button>
+            </div>
+            
         </div>
     </section>
 
@@ -222,7 +225,7 @@
                 <hr>
             </div>
             <div class="row">
-                <div class="left col-sm-12 col-md-12 col-lg-6">
+                <div class="col-sm-12 col-md-12 col-lg-6">
                     <p class="about-para">A full-stack web developer and user interface designer with a background in
                         Mathematics, Statistics and Computer Science. Currently employed in Hyderabad, looking for my
                         next professional opportunity.</p>
@@ -245,9 +248,9 @@
                         <li class="list-group-item">UNIX fundamentals - Ubuntu</li>
                     </ul>
 
-                    <button class="btn"><a href=""></a>Download Resume</button>
+                    <a href="" class="btn-small about">Download Resume</a>
                 </div>
-                <div class="right col-md-12 col-lg-6">
+                <div class=" col-sm-12 col-md-12 col-lg-6 col">
 
                     <div class="tech-img">
                         <img src="./images/new_tech.png" class="img-fluid" alt="Responsive image">
@@ -297,9 +300,7 @@
             </div>
         </div>
     </div>
-    </section>
-
-    </section>
+    
     <!-- footer -->
     <div id="foot">
         <div class="container">
@@ -334,7 +335,7 @@
                     <textarea style="height:150px;" class="form-control" name="message" id="inputAddress2"></textarea>
                 </div>
 
-                <button type="submit" class="btn btn-small">SUBMIT</button>
+                <button type="submit" class="btn-small-small">SUBMIT</button>
             </form>
 
 
@@ -359,9 +360,9 @@
 
 
 
-    {{-- </div> --}}
+    
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>

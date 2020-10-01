@@ -26,32 +26,53 @@
 body{
   background-color: #1A1B21;
   color:white;
+  font-size:18px;
 }
 
 
 
-hr{
-  width: 4px;
-  height: 31px;
-  background-color: linear-gradient(180deg, #D61151 0%, #6D24C0 100%);
+// hr{
+//   width: 4px;
+//   height: 31px;
+//   // background-color: linear-gradient(180deg, #D61151 0%, #6D24C0 100%);
+//   background-color: red;
   
-}
+// }
 
+@media (max-width: 540px){
+  #about-section{
+    padding-top:3em;
+    padding-bottom:3em;
+    .container{
+      padding:0 15px;
+    }
+
+ 
+.tech-img{
+    padding-top: 80px;
+    text-align: center;
+    
+}
+   
+}
+}
 // Extra small devices (portrait phones, less than 576px)
-@media (max-width: 720px) { 
+@media (min-width: 720px) { 
+
   body{
     font-size:2em;
   }
   header{
     padding:20px 0;
     .container{
-      padding:0 12px;
+      padding:0;
     }
   }
  
   #work-section{
+    padding-bottom:3em;
     .container{
-      padding:0 30px;
+      padding:0;
     }
     div.card.mg-b{
       margin-bottom:15px;
@@ -59,21 +80,18 @@ hr{
     
   }
   #about-section{
-    .row{
-      justify-content: center;
-      align-items: center;
-    }
-    .container{
-      padding:0 30px;
-    }
-    .right{
-      align-items: center;
-      img{
-        text-align: center;
-      }
-     
-    }
-  }
+    padding-top:4em;
+    padding-bottom:4em;
+    
+
+ 
+.tech-img{
+    padding-top: 40px;
+    text-align: center;
+    
+}
+   
+}
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -87,4 +105,4 @@ hr{
 // @media (min-width: 992px) and (max-width: 1199.98px) { ... }
 
 // // Extra large devices (large desktops, 1200px and up)
-// @media (min-width: 1200px) { ... }
+  // @media (min-width: 1200px) { ... }
