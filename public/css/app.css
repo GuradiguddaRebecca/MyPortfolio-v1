@@ -11323,13 +11323,13 @@ header .nav-item:hover {
 
 a.btn {
   display: inline-block;
-  margin: 0 auto 6px;
-  margin-top: 20px;
+  margin: 0 auto 0.4rem;
+  margin-top: 1.2rem;
   font-weight: bolder;
   color: white;
   font-size: 1.5rem;
-  line-height: 38px;
-  letter-spacing: -0.02em;
+  line-height: 2.3rem;
+  letter-spacing: -0.02rem;
   border-bottom: 3px solid red;
 }
 
@@ -11344,11 +11344,11 @@ a.btn:hover {
   border: 3px solid red;
   background-color: transparent;
   color: black;
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
   font-weight: bolder;
   text-decoration: none;
-  padding: 10px 25px;
+  padding: 0.7rem 1.5rem;
 }
 
 .btn-small.about:hover {
@@ -11358,7 +11358,7 @@ a.btn:hover {
 }
 
 .btn-small-small {
-  margin-top: 10px;
+  margin-top: 0.7em;
   font-weight: bolder;
   color: white;
   font-size: 1rem;
@@ -11373,18 +11373,18 @@ a.btn:hover {
 
 h2.section-title {
   color: white;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 900;
   text-transform: uppercase;
 }
 
 .section-header {
-  margin-bottom: 20px;
+  margin-bottom: 1.3em;
 }
 
 #work-section {
-  background-color: #1A1B21;
   padding-bottom: 7em;
+  background-color: #1A1B21;
 }
 
 #work-section hr {
@@ -11409,12 +11409,12 @@ h2.section-title {
   background-color: #1A1B21;
   color: white;
   border: none;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.5rem;
 }
 
 #work-section .card-body {
-  padding: 1.5em 0;
-  margin-bottom: 10px;
+  padding: 1.5rem 0;
+  margin-bottom: 0.7rem;
 }
 
 #work-section .card-body a.p-link {
@@ -11422,7 +11422,7 @@ h2.section-title {
   border: 3px solid red;
   background-color: transparent;
   color: white;
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
   font-weight: bolder;
   text-decoration: none;
@@ -11444,7 +11444,7 @@ h2.section-title {
 }
 
 #work-section .card-title {
-  margin-bottom: 10px;
+  margin-bottom: 0.7rem;
   font-size: 1.5rem;
   font-weight: 900;
   line-height: 38px;
@@ -11468,8 +11468,8 @@ h2.section-title {
 }
 
 #about-section {
-  padding-top: 7em;
-  padding-bottom: 7em;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
   background-color: white;
   color: black;
 }
@@ -11479,7 +11479,7 @@ h2.section-title {
 }
 
 #about-section .list-group-item {
-  margin-bottom: 1.5em;
+  margin-bottom: 1.5rem;
   border: none;
   padding: 0;
 }
@@ -11488,7 +11488,7 @@ h2.section-title {
   width: 31px;
   height: 4px;
   background: red;
-  margin-top: 0.3em;
+  margin-top: 0.3rem;
 }
 
 #about-section .row {
@@ -11503,7 +11503,7 @@ h2.section-title {
 }
 
 #about-section .about-para {
-  margin-bottom: 2.2em;
+  margin-bottom: 2.2rem;
   font-weight: normal;
   font-size: 1.2rem;
   line-height: 31px;
@@ -11514,7 +11514,7 @@ h2.section-title {
   font-size: 1.3rem;
   line-height: 31px;
   text-transform: uppercase;
-  letter-spacing: 0.01em;
+  letter-spacing: -0.01rem;
   margin: 0;
 }
 
@@ -11533,7 +11533,7 @@ h2.section-title {
 }
 
 #slide p {
-  margin-bottom: 0.3em;
+  margin-bottom: 0.3rem;
 }
 
 #slide img {
@@ -11549,7 +11549,7 @@ h2.section-title {
 body {
   background-color: #1A1B21;
   color: white;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 @media (max-width: 540px) {

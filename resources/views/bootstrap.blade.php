@@ -136,9 +136,8 @@
                         <div class="card-body">
                             <h2 class="card-title">Recipe App</h2>
                             <p><span>HTML/ CSS/ Vanilla javascript<span></p>
-                            <p class="card-text">There are many variations of passages of Lorem Ipsum available, but
-                                the majority have suffered alteration in some form, by injected humour, or
-                                randomised words which don't look even slightly believable</p>
+                            <p class="card-text">An app made on HTML, Css, JavaScript which displays recipes of different dishes.
+                                You can select your favourite dish,it will be displayed in favourite meals setion. There is a search button where you can search for a dish needed.</p>
                             <a class="p-link" href="projects/recipe" target="_blank">View Project</a>
                         </div>
                     </div>
@@ -262,7 +261,7 @@
 
     </section>
 
-
+  
 
     <!-- slide -->
     <section id="slide">

@@ -2,13 +2,13 @@
 
 a.btn{
     display:inline-block;
-    margin:0 auto 6px;
-    margin-top:20px;
+    margin:0 auto 0.4rem;
+    margin-top:1.2rem;
     font-weight: bolder;
     color:white;
     font-size: 1.5rem;
-    line-height: 38px;
-    letter-spacing: -0.02em;
+    line-height: 2.3rem;
+    letter-spacing: -0.02rem;
     border-bottom: 3px solid red;
     // opacity: 0.85;
 }
@@ -22,11 +22,11 @@ a.btn:hover{
     border: 3px solid red;
     background-color: transparent;
     color: black;
-    font-size: 16px;
+    font-size: 1rem;
     cursor: pointer;
     font-weight: bolder;
     text-decoration: none;
-    padding:10px 25px;
+    padding:0.7rem 1.5rem;
 }
 .btn-small.about:hover{
     background: black;
@@ -38,7 +38,7 @@ a.btn:hover{
 .btn-small-small{
     // display:inline-block;
     // margin:0 auto 6px;
-    margin-top:10px;
+    margin-top:0.7em;
     font-weight: bolder;
     color:white;
     font-size: 1rem;
@@ -53,20 +53,20 @@ a.btn:hover{
 
 h2.section-title{
     color:white;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 900;
     text-transform:uppercase;
     
 }
 
 .section-header{
-    margin-bottom:20px;
+    margin-bottom:1.3em;
 }
 
 // work
 #work-section{
+    padding-bottom:7em;
     background-color: $body-bg;
-    padding-bottom: 7em;
     hr{
         width:31px;
         height:4px;
@@ -91,21 +91,21 @@ h2.section-title{
         background-color:#1A1B21;
         color:white;
         border:none;
-        margin-bottom: .50em;
+        margin-bottom: .50rem;
        
     }
 
 
 
     .card-body{
-        padding:1.5em 0;
-        margin-bottom:10px;
+        padding:1.5rem 0;
+        margin-bottom:0.7rem;
         a.p-link{
             display:inline-block;
             border: 3px solid red;
             background-color: transparent;
             color: white;
-            font-size: 16px;
+            font-size: 1rem;
             cursor: pointer;
             font-weight: bolder;
             text-decoration: none;
@@ -128,7 +128,7 @@ h2.section-title{
     }
 
     .card-title{
-        margin-bottom:10px;
+        margin-bottom:0.7rem;
         font-size: 1.5rem;
         font-weight: 900;
         line-height: 38px;
@@ -174,8 +174,8 @@ h2.section-title{
     //         background-position: 0% 50%;
     //     }
     // }
-    padding-top:7em;
-    padding-bottom: 7em;
+    padding-top:7rem;
+    padding-bottom: 7rem;
     background-color: white;  
     color:black;
     
@@ -183,7 +183,7 @@ h2.section-title{
         padding:0;
     }
     .list-group-item{
-        margin-bottom:1.5em;
+        margin-bottom:1.5rem;
         border:none;
         padding:0;
     }
@@ -192,7 +192,7 @@ h2.section-title{
         width:31px;
         height:4px;
         background:red;
-        margin-top:.30em;
+        margin-top:.30rem;
     }
     .row{
         display:flex;
@@ -214,7 +214,7 @@ h2.section-title{
         text-align: right;
     }
     .about-para{
-        margin-bottom: 2.2em;
+        margin-bottom: 2.2rem;
         font-weight: normal;
         font-size: 1.2rem;
         line-height: 31px;
@@ -225,7 +225,7 @@ h2.section-title{
         font-size: 1.3rem;
         line-height: 31px;
         text-transform: uppercase;
-        letter-spacing: 0.01em;
+        letter-spacing: -0.01rem;
         margin:0;
     }
     
@@ -247,7 +247,7 @@ h2.section-title{
     font-weight: bolder;
     }
     p{
-    margin-bottom:.30em;
+    margin-bottom:.30rem;
     }
 
     img{
