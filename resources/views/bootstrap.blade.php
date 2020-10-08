@@ -186,7 +186,7 @@
                             <p class="card-text">This one is a super simple to-do list where you can cross out what
                                 you have done by clicking on the task or delete it by hovering and hitting the
                                 garbage can icon</p>
-                            <a class="p-link" href="" target="_blank">View Project </a>
+                            <a class="p-link" href="https://www.thedotexpress.co/" target="_blank">View Project </a>
                         </div>
                     </div>
                 </div>
