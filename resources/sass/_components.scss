@@ -17,7 +17,7 @@ a.btn:hover{
     border-bottom: 3px solid white;
 }
 
-.btn-small,.btn-small.about{
+.btn-small.about{
     display:inline-block;
     border: 3px solid red;
     background-color: transparent;
@@ -30,7 +30,7 @@ a.btn:hover{
 }
 .btn-small.about:hover{
     background-color: red;
-    color:black;
+    color:white;
     border: 3px solid red;
 }
 

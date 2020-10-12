@@ -247,7 +247,10 @@
                         <li class="list-group-item">UNIX fundamentals - Ubuntu</li>
                     </ul>
 
-                    <a href="" class="btn-small about">Download Resume</a>
+                    
+                    <form action="G.Rebecca_Resume.docx" method="get">
+                        <button type=submit class="btn-small about">Download Resume</button>
+                    </form>
                 </div>
                 <div class=" col-sm-12 col-md-12 col-lg-6 col">
 
@@ -264,7 +267,7 @@
   
 
     <!-- slide -->
-    <section id="slide">
+    {{-- <section id="slide">
         <div class="slide-container">
         <div class="col-sm-12" style="margin:0 auto; padding:0;">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -298,7 +301,7 @@
                 </a>
             </div>
         </div>
-    </div>
+    </div> --}}
     
     <!-- footer -->
     <div id="foot">
@@ -352,6 +355,11 @@
                 </div>
                 <div class="social-group mr-4 mt-1">
                     <a href=""><img src="./images/portfolio.png" alt=""></a>
+                </div>
+                <div class="social-group mr-4 mt-1">
+                    <form action="G.Rebecca_Resume.docx" method="get">
+                        <button type=submitt><img src="./images/portfolio.png" alt=""></button>
+                    </form>
                 </div>
             </div>
         </div>
