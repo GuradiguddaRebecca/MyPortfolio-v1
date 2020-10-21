@@ -11478,6 +11478,7 @@ h2.section-title {
 }
 
 #about-section .list-group-item {
+  font-size: 1rem;
   margin-bottom: 1.5rem;
   border: none;
   padding: 0;

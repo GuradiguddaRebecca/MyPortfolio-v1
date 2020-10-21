@@ -270,12 +270,11 @@
                 <div class="social-group mr-4 mt-1">
                     <a href="https://github.com/GuradiguddaRebecca"><img src="./images/git.png" alt=""></a>
                 </div>
-                <div class="social-group mr-4 mt-1">
-                    <a href=""><img src="./images/portfolio.png" alt=""></a>
-                </div>
+                
             </div>
         </div>
     </div>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>

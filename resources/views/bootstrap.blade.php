@@ -353,14 +353,7 @@
                 <div class="social-group mr-4 mt-1">
                     <a href="https://github.com/GuradiguddaRebecca"><img src="./images/git.png" alt=""></a>
                 </div>
-                <div class="social-group mr-4 mt-1">
-                    <a href=""><img src="./images/portfolio.png" alt=""></a>
-                </div>
-                <div class="social-group mr-4 mt-1">
-                    <form action="G.Rebecca_Resume.docx" method="get">
-                        <button type=submitt><img src="./images/portfolio.png" alt=""></button>
-                    </form>
-                </div>
+                
             </div>
         </div>
     </div>
