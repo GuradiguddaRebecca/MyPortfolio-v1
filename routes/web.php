@@ -36,7 +36,7 @@ Route::get('projects/todolist',function(){
 });
 
 Route::get('projects/patatap2',function(){
-    return view('projects.patatap2.circles');
+    return view('projects.circles');
 });
 Route::get('projects/quiz',function(){
     return view('projects.quiz');
